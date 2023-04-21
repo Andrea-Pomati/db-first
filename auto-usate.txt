@@ -1,0 +1,11 @@
+id - BIGINT - Primary Key, unique, Auto-increment, not_null
+targa - VARCHAR(20) - Primary Key, unique, not_null
+marchio - VARCHAR(100) - not_null
+modello - VARCHAR(100) - not_null
+alimentazione - VARCHAR(50) - not_null
+km_percorsi - int(10)  - not_null
+anno_produzione - YEAR(4) - not_null
+cilindrata - int(5) - not_null
+cavalli - int(5) - not_null
+
+
